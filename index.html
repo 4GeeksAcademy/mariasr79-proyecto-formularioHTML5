@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div class="mx-auto mt-5" style="width: 1200px;">
+    <div class="mx-auto mt-5" style="max-width: 1200px;pl-30px; pr-30px">
         <div class="card">
             <div class="card-header">
                 <strong> Payment form example</strong>
@@ -27,14 +27,15 @@
                         <label for="card" class="form-label">
                             Card#
                         </label>
-                        <input type="text" imputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" "id="card" placeholder="XXXX-XXXX-XXXX-XXXX" maxlength="19"
-                            class="form-control">
+                        <input type="number" imputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" "id="
+                            card" placeholder="XXXX-XXXX-XXXX-XXXX" maxlength="19" class="form-control">
                     </div>
                     <div class="col-md-3">
                         <label for="cvc" class="form-label">
                             CVC#
                         </label>
-                        <input type="text" imputmode="numeric" pattern="[0-9\s]{13,19}" id="cvc" placeholder="XXX" maxlength="3" class="form-control">
+                        <input type="text" imputmode="numeric" pattern="[0-9\s]{13,19}" id="cvc" placeholder="XXX"
+                            maxlength="3" class="form-control">
 
                     </div>
                     <div class="col-md-3">
@@ -82,7 +83,8 @@
                         <label for="PostalCode" class="form-label">
                             Postal Code
                         </label>
-                        <input type="text" imputmode="numeric" pattern="[0-9\s]{13,19}"id="PostalCode"" class=" form-control">
+                        <input type="text" imputmode="numeric" pattern="[0-9\s]{13,19}" id="PostalCode"" class="
+                            form-control">
                     </div>
                     <div class="col-md-3">
                         <label for="inputState" class="form-label">We accept:</label>
